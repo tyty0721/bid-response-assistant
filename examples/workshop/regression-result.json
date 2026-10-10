@@ -1,0 +1,12 @@
+{
+  "scope": "Selected key-clause regression from supplied workshop PDF; not a full extraction benchmark",
+  "sources": 12,
+  "pdf_pages": 52,
+  "anchors_checked": 19,
+  "citation_errors": 0,
+  "state": "needs_information",
+  "issues": 52,
+  "complete_semantic_extraction": false,
+  "business_acceptance": false,
+  "submission": "not_performed"
+}

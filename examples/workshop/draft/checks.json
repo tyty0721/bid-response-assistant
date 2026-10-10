@@ -1,0 +1,614 @@
+{
+  "schema_version": 1,
+  "project_id": "N5100012026002044",
+  "input_hash": "541175974d50064fbb063e0fcd8c19ffec2227af24eb606ae0ee8fcdba9da4cd",
+  "materials_hash": "b2d0a7066997a6fb1dadb89171dcd170339cb8c07fba9cf0777e26b0064dec73",
+  "as_of": "2026-10-10",
+  "state": "needs_information",
+  "issues": [
+    {
+      "code": "PROJECT_FIELD_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Project or supplier field is unknown: company"
+    },
+    {
+      "code": "DEADLINE_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Supply the official notice and deadline; do not infer a date from the version ID"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p001"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p004"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p007"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p008"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p009"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p010"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p011"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p012"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p013"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p014"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p016"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p017"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p018"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p019"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p020"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p021"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p022"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p025"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p026"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p029"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p031"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p032"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p037"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p038"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p039"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p040"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p041"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p043"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p044"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p045"
+    },
+    {
+      "code": "COVERAGE_UNREVIEWED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "No recorded semantic review for S002:p046"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "W-SME",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "W-QUAL-PROMISE",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "W-CONSORTIUM",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "W-CEILING",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "W-VALIDITY",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "W-PERFORMANCE-DEPOSIT",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "W-AGENCY-FEE",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "W-SERVICE-TERM",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "W-LOCATION",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "W-TEXTBOOK",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "W-PAYMENT",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "warning",
+      "requirement_id": "W-LIVE-DEMO",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "warning",
+      "requirement_id": "W-PLATFORM",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "warning",
+      "requirement_id": "W-COPYRIGHT",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "warning",
+      "requirement_id": "W-HISTORY",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "warning",
+      "requirement_id": "W-PLAN",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "W-SUBMISSION",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "QUOTE_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Supplier price is unknown; the procurement ceiling is not a quote"
+    },
+    {
+      "code": "DOCUMENT_CONFLICT",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "p24达到付款条件后30个工作日与p42满足条件收到发票后10个工作日的起算和期限需澄清"
+    }
+  ],
+  "matrix": [
+    {
+      "id": "W-SME",
+      "kind": "qualification",
+      "text": "专门面向中小企业，按适用身份提交声明或证明",
+      "status": "missing_evidence",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p028",
+          "quote": "专⻔面向中小企业"
+        }
+      ]
+    },
+    {
+      "id": "W-QUAL-PROMISE",
+      "kind": "qualification",
+      "text": "一般资格采用响应函承诺及电子签章，内部须核实事实",
+      "status": "needs_confirmation",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p027",
+          "quote": "完成承诺"
+        }
+      ]
+    },
+    {
+      "id": "W-CONSORTIUM",
+      "kind": "qualification",
+      "text": "不接受联合体参加",
+      "status": "needs_confirmation",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p005",
+          "quote": "不接受联合体"
+        }
+      ]
+    },
+    {
+      "id": "W-CEILING",
+      "kind": "substantive",
+      "text": "包1总价报价不得超过650000.00元",
+      "status": "needs_confirmation",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p015",
+          "quote": "650,000.00"
+        }
+      ]
+    },
+    {
+      "id": "W-VALIDITY",
+      "kind": "substantive",
+      "text": "响应有效期自截止之日起至少90天",
+      "status": "needs_confirmation",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p006",
+          "quote": "90\n \n天"
+        }
+      ]
+    },
+    {
+      "id": "W-PERFORMANCE-DEPOSIT",
+      "kind": "contract",
+      "text": "合同签订前按合同金额5%提交履约保证金",
+      "status": "needs_confirmation",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p006",
+          "quote": "5.0%"
+        }
+      ]
+    },
+    {
+      "id": "W-RESPONSE-DEPOSIT",
+      "kind": "procedure",
+      "text": "响应保证金不收取，不能与履约保证金混淆",
+      "status": "reference_only",
+      "response": "记录项目规则；当前无需为本条单独提交响应或证明。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p005",
+          "quote": "不收取投标"
+        }
+      ]
+    },
+    {
+      "id": "W-AGENCY-FEE",
+      "kind": "contract",
+      "text": "成交供应商承担代理费，成交额乘1.5%再下浮40%，即0.9%",
+      "status": "needs_confirmation",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p006",
+          "quote": "1.5%"
+        }
+      ]
+    },
+    {
+      "id": "W-SERVICE-TERM",
+      "kind": "substantive",
+      "text": "自合同签订之日起300日完成服务，现在须响应",
+      "status": "needs_confirmation",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p023",
+          "quote": "300\n日"
+        }
+      ]
+    },
+    {
+      "id": "W-LOCATION",
+      "kind": "substantive",
+      "text": "服务地点为四川铁道职业学院成都校区",
+      "status": "needs_confirmation",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p023",
+          "quote": "四川铁道职业学院成都校区"
+        }
+      ]
+    },
+    {
+      "id": "W-TEXTBOOK",
+      "kind": "substantive",
+      "text": "正规电子ISBN，三审三校、版权与意识形态审核，需盖章承诺函",
+      "status": "needs_confirmation",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p023",
+          "quote": "ISBN"
+        }
+      ]
+    },
+    {
+      "id": "W-PAYMENT",
+      "kind": "contract",
+      "text": "分期40%和60%，达到约定条件后30个工作日付款；另与合同p42核对",
+      "status": "needs_confirmation",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p024",
+          "quote": "30\n个工作日"
+        }
+      ]
+    },
+    {
+      "id": "W-LIVE-DEMO",
+      "kind": "scoring",
+      "text": "同一一体化平台真实运行演示，不用PPT、Word、图片或demo替代，限20分钟",
+      "status": "missing_evidence",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p033",
+          "quote": "真实运行系统平台演示"
+        }
+      ]
+    },
+    {
+      "id": "W-PLATFORM",
+      "kind": "scoring",
+      "text": "课程平台履约能力需备案及教育部公示截图、课程链接，四维度完整且同一平台",
+      "status": "missing_evidence",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p034",
+          "quote": "ICP/IP"
+        }
+      ]
+    },
+    {
+      "id": "W-COPYRIGHT",
+      "kind": "scoring",
+      "text": "虚拟仿真相关软件著作权，每项0.25分，上限7分，需证明复印件",
+      "status": "missing_evidence",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p034",
+          "quote": "软件著作权证书"
+        }
+      ]
+    },
+    {
+      "id": "W-HISTORY",
+      "kind": "scoring",
+      "text": "2023年1月1日起至截止日类似业绩，需合同关键页，每项1分最高5分",
+      "status": "missing_evidence",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p035",
+          "quote": "2023"
+        }
+      ]
+    },
+    {
+      "id": "W-PLAN",
+      "kind": "scoring",
+      "text": "实施方案六项和售后方案四项均需正文，缺陷包括错项目或仅标题",
+      "status": "needs_confirmation",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p035",
+          "quote": "项目整体建设计划"
+        }
+      ]
+    },
+    {
+      "id": "W-LOW-PRICE",
+      "kind": "procedure",
+      "text": "低于限价50%触发异常低价说明；其他触发涉及竞争者数据，不能直接判无效",
+      "status": "reference_only",
+      "response": "记录项目规则；当前无需为本条单独提交响应或证明。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p030",
+          "quote": "最高限价"
+        }
+      ]
+    },
+    {
+      "id": "W-SUBMISSION",
+      "kind": "procedure",
+      "text": "通过交易系统递交并取得回执，本技能仅给人工操作清单",
+      "status": "missing_evidence",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p003",
+          "quote": "已提交响应文件的回执单"
+        }
+      ]
+    }
+  ],
+  "calculations": {
+    "technical_marker_counts": {}
+  },
+  "semantic_review": "agent_and_human_required",
+  "submission": "not_performed"
+}

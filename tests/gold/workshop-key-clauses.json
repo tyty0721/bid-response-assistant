@@ -1,0 +1,27 @@
+{
+  "scope": "Selected key-clause regression from supplied workshop PDF; not a full extraction benchmark",
+  "project_id": "N5100012026002044",
+  "version": "N510001202600204420260828001",
+  "clauses": [
+    {"id":"W-SME","page":28,"pattern":"专[\\s\\S]{0,10}面向中小企业","text":"专门面向中小企业，按适用身份提交声明或证明","kind":"qualification","proof":"statement"},
+    {"id":"W-QUAL-PROMISE","page":27,"pattern":"完成承诺","text":"一般资格采用响应函承诺及电子签章，内部须核实事实","kind":"qualification","proof":"promise"},
+    {"id":"W-CONSORTIUM","page":5,"pattern":"不接受联合体","text":"不接受联合体参加","kind":"qualification","proof":"promise"},
+    {"id":"W-CEILING","page":15,"pattern":"650,000\\.00","text":"包1总价报价不得超过650000.00元","kind":"substantive","proof":"promise"},
+    {"id":"W-VALIDITY","page":6,"pattern":"90[\\s\\S]{0,8}天","text":"响应有效期自截止之日起至少90天","kind":"substantive","proof":"promise"},
+    {"id":"W-PERFORMANCE-DEPOSIT","page":6,"pattern":"5\\.0%","text":"合同签订前按合同金额5%提交履约保证金","kind":"contract","proof":"promise"},
+    {"id":"W-RESPONSE-DEPOSIT","page":5,"pattern":"不收取投标","text":"响应保证金不收取，不能与履约保证金混淆","kind":"procedure","proof":"none"},
+    {"id":"W-AGENCY-FEE","page":6,"pattern":"1\\.5%","text":"成交供应商承担代理费，成交额乘1.5%再下浮40%，即0.9%","kind":"contract","proof":"promise"},
+    {"id":"W-SERVICE-TERM","page":23,"pattern":"300[\\s\\S]{0,4}日","text":"自合同签订之日起300日完成服务，现在须响应","kind":"substantive","proof":"promise"},
+    {"id":"W-LOCATION","page":23,"pattern":"四川铁道职业学院成都校区","text":"服务地点为四川铁道职业学院成都校区","kind":"substantive","proof":"promise"},
+    {"id":"W-TEXTBOOK","page":23,"pattern":"ISBN","text":"正规电子ISBN，三审三校、版权与意识形态审核，需盖章承诺函","kind":"substantive","proof":"promise"},
+    {"id":"W-PAYMENT","page":24,"pattern":"30[\\s\\S]{0,8}个工作日","text":"分期40%和60%，达到约定条件后30个工作日付款；另与合同p42核对","kind":"contract","proof":"promise"},
+    {"id":"W-LIVE-DEMO","page":33,"pattern":"真实运行系统平台演示","text":"同一一体化平台真实运行演示，不用PPT、Word、图片或demo替代，限20分钟","kind":"scoring","proof":"live_demo"},
+    {"id":"W-PLATFORM","page":34,"pattern":"ICP/IP","text":"课程平台履约能力需备案及教育部公示截图、课程链接，四维度完整且同一平台","kind":"scoring","proof":"platform_record"},
+    {"id":"W-COPYRIGHT","page":34,"pattern":"软件著作权证书","text":"虚拟仿真相关软件著作权，每项0.25分，上限7分，需证明复印件","kind":"scoring","proof":"copyright"},
+    {"id":"W-HISTORY","page":35,"pattern":"2023","text":"2023年1月1日起至截止日类似业绩，需合同关键页，每项1分最高5分","kind":"scoring","proof":"historical_contract"},
+    {"id":"W-PLAN","page":35,"pattern":"项目整体建设计划","text":"实施方案六项和售后方案四项均需正文，缺陷包括错项目或仅标题","kind":"scoring","proof":"promise"},
+    {"id":"W-LOW-PRICE","page":30,"pattern":"最高限价","text":"低于限价50%触发异常低价说明；其他触发涉及竞争者数据，不能直接判无效","kind":"procedure","proof":"none"},
+    {"id":"W-SUBMISSION","page":3,"pattern":"已提交响应文件的回执单","text":"通过交易系统递交并取得回执，本技能仅给人工操作清单","kind":"procedure","proof":"platform_record"}
+  ],
+  "expected": {"budget":"650000.00","ceiling":"650000.00","deadline":null,"company":null,"quote":null,"state":"needs_information","response_deposit":"0.00","performance_deposit_rate":"0.05","agency_fee_rate":"0.009","min_validity_days":90,"low_price_ratio":"0.5","price_deduction_rate":"0"}
+}

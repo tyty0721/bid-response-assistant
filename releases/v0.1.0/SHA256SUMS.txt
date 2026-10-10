@@ -1,0 +1,3 @@
+9b1cc1c9fc7f49e00c3032ae3141c7a7a09e90d6bb38c6990122e94e8e6cd9ee  bid-response-assistant-delivery-v0.1.0.zip
+905f568c49877347c72e190606412e784a5b5c8b4ee49491cb4ea9e1b126c650  bid-response-assistant-skill-v0.1.0.zip
+23f8dcadfddb30a992ff14938d43ffb744940877f67d0b865f6036070be305b1  delivery-manifest.json

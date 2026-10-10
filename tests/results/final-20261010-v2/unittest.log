@@ -1,0 +1,43 @@
+test_T01_bundle_without_company_is_incomplete (test_bid.BidTests.test_T01_bundle_without_company_is_incomplete) ... ok
+test_T02_missing_deadline_never_inferred (test_bid.BidTests.test_T02_missing_deadline_never_inferred) ... ok
+test_T04_authorized_promise_needs_no_audit_attachment (test_bid.BidTests.test_T04_authorized_promise_needs_no_audit_attachment) ... ok
+test_T06_expired_wrong_entity_and_product_are_rejected (test_bid.BidTests.test_T06_expired_wrong_entity_and_product_are_rejected) ... ok
+test_T07_marketing_text_cannot_replace_screenshot (test_bid.BidTests.test_T07_marketing_text_cannot_replace_screenshot) ... ok
+test_T08_future_promise_cannot_replace_historical_contract (test_bid.BidTests.test_T08_future_promise_cannot_replace_historical_contract) ... ok
+test_T09_screenshot_cannot_replace_live_demo (test_bid.BidTests.test_T09_screenshot_cannot_replace_live_demo) ... ok
+test_T10_count_markers_by_records_not_maximum_ordinal (test_bid.BidTests.test_T10_count_markers_by_records_not_maximum_ordinal) ... ok
+test_T11_future_contract_term_requires_current_response (test_bid.BidTests.test_T11_future_contract_term_requires_current_response) ... ok
+test_T12_validity_boundary (test_bid.BidTests.test_T12_validity_boundary) ... ok
+test_T13_ceiling_and_uppercase (test_bid.BidTests.test_T13_ceiling_and_uppercase) ... ok
+test_T14_T15_deposit_and_fee_types (test_bid.BidTests.test_T14_T15_deposit_and_fee_types) ... ok
+test_T16_low_price_strict_boundary_and_not_invalid (test_bid.BidTests.test_T16_low_price_strict_boundary_and_not_invalid) ... ok
+test_T17_no_automatic_sme_deduction (test_bid.BidTests.test_T17_no_automatic_sme_deduction) ... ok
+test_T18_actual_price_score_unknown (test_bid.BidTests.test_T18_actual_price_score_unknown) ... ok
+test_T19_changes_invalidate_approval_and_list_impact (test_bid.BidTests.test_T19_changes_invalidate_approval_and_list_impact) ... ok
+test_T20_public_bidding_has_no_consultation_final_quote (test_bid.BidTests.test_T20_public_bidding_has_no_consultation_final_quote) ... ok
+test_T21_low_quality_source_is_not_accepted (test_bid.BidTests.test_T21_low_quality_source_is_not_accepted) ... ok
+test_T22_short_docx_instruction_is_native (test_bid.BidTests.test_T22_short_docx_instruction_is_native) ... ok
+test_T23_document_instruction_stays_text (test_bid.BidTests.test_T23_document_instruction_stays_text) ... ok
+test_T24_zip_path_traversal_macro_and_bomb (test_bid.BidTests.test_T24_zip_path_traversal_macro_and_bomb) ... ok
+test_T25_wrong_school_is_reported (test_bid.BidTests.test_T25_wrong_school_is_reported) ... ok
+test_T26_export_keeps_missing_fields_and_handoff_hashes (test_bid.BidTests.test_T26_export_keeps_missing_fields_and_handoff_hashes) ... ok
+test_T27_resume_never_overwrites_edits (test_bid.BidTests.test_T27_resume_never_overwrites_edits) ... ok
+test_T28_approval_is_never_submission (test_bid.BidTests.test_T28_approval_is_never_submission) ... ok
+test_citation_must_match_quote_source_and_hash (test_bid.BidTests.test_citation_must_match_quote_source_and_hash) ... ok
+test_complete_record_is_reviewed_but_not_submitted (test_bid.BidTests.test_complete_record_is_reviewed_but_not_submitted) ... ok
+test_csv_does_not_execute_formula_text (test_bid.BidTests.test_csv_does_not_execute_formula_text) ... ok
+test_empty_requirements_past_deadline_and_bad_rate (test_bid.BidTests.test_empty_requirements_past_deadline_and_bad_rate) ... ok
+test_procurement_cannot_prove_company_capability (test_bid.BidTests.test_procurement_cannot_prove_company_capability) ... ok
+test_quote_must_not_use_float_negative_nan_or_long_precision (test_bid.BidTests.test_quote_must_not_use_float_negative_nan_or_long_precision) ... ok
+test_schema_duplicate_ids_unknown_evidence_timezone (test_bid.BidTests.test_schema_duplicate_ids_unknown_evidence_timezone) ... ok
+test_source_text_tampering_invalidates_approval (test_bid.BidTests.test_source_text_tampering_invalidates_approval) ... ok
+test_unknown_jurisdiction_and_cross_package_are_limited (test_bid.BidTests.test_unknown_jurisdiction_and_cross_package_are_limited) ... ok
+test_unknown_validity_is_not_a_zero_day_default (test_bid.BidTests.test_unknown_validity_is_not_a_zero_day_default) ... ok
+test_unreviewed_blocks_and_unresolved_conflicts_block (test_bid.BidTests.test_unreviewed_blocks_and_unresolved_conflicts_block) ... ok
+test_uppercase_zero_and_group_boundaries (test_bid.BidTests.test_uppercase_zero_and_group_boundaries) ... ok
+test_archive_is_reproducible_and_omits_private_materials (test_package.PackageTests.test_archive_is_reproducible_and_omits_private_materials) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 1.383s
+
+OK

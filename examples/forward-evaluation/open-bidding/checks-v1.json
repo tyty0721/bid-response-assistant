@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "project_id": "H-2026-07",
+  "input_hash": "124aee12fd58f56ee5a6bd533337e0005f6617fe0e5ba0fbcc80c42376c3cd47",
+  "materials_hash": "b48d0bbf95b1ca35f4efd0374aa1f29fa6c1daae005440e08cdf5397ac70628c",
+  "as_of": "2026-10-10",
+  "state": "needs_information",
+  "issues": [
+    {
+      "code": "UNSUPPORTED_METHOD",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Only limited source analysis is supported for this procurement method"
+    },
+    {
+      "code": "DEADLINE_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Supply the official notice and deadline; do not infer a date from the version ID"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "H2-R001",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "H2-R002",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "H2-R003",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "H2-R004",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "H2-R005",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "QUOTE_BASIS",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Confirm CNY and tax-inclusive basis for this supported workflow"
+    },
+    {
+      "code": "QUOTE_UPPERCASE",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Uppercase and numeric quote differ; do not silently correct an approved quote"
+    },
+    {
+      "code": "QUOTE_UNAPPROVED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Pricing decision needs company approval"
+    },
+    {
+      "code": "QUOTE_CEILING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Quote exceeds the package ceiling"
+    },
+    {
+      "code": "VALIDITY_SHORT",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Response validity is missing or shorter than the documented minimum"
+    },
+    {
+      "code": "DOCUMENT_CONFLICT",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "输入小写报价812345.68元超过最高限价812345.67元0.01元；真实报价和调整方案待企业批准。"
+    },
+    {
+      "code": "DOCUMENT_CONFLICT",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "输入大写金额对应812345.67元，与小写812345.68元相差0.01元，不能静默修改任一金额。"
+    },
+    {
+      "code": "DOCUMENT_CONFLICT",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "当前产品要求为v3，附件企业资料只记载截图为v2；原始截图尚未提供，不能作为v3能力证明。"
+    }
+  ],
+  "matrix": [
+    {
+      "id": "H2-R001",
+      "kind": "substantive",
+      "text": "最高限价812345.67元。",
+      "status": "conflict",
+      "response": "【报价待企业重新批准】输入小写为812345.68元，比限价高0.01元；输入大写对应812345.67元，存在金额不一致。先核对真实报价意图，再统一大小写且不得超过项目限价；本草稿不替企业选择报价。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "最高限价812345.67元。"
+        }
+      ]
+    },
+    {
+      "id": "H2-R002",
+      "kind": "procedure",
+      "text": "响应截止时间以尚未随附件提供的官方公告为准。",
+      "status": "missing_evidence",
+      "response": "【待补正式公告】请提供与H-2026-07包2、更正后版本B对应的官方公告及相关更正，确认投标截止日期、时间、时区和递交轮次。当前deadline=null。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "响应截止时间以尚未随附件提供的官方公告为准。"
+        }
+      ]
+    },
+    {
+      "id": "H2-R003",
+      "kind": "substantive",
+      "text": "★交付应于合同生效后210日内完成。",
+      "status": "needs_confirmation",
+      "response": "【仅供企业确认的承诺草稿】虚构乙公司拟承诺：本项目交付于合同生效后210日内完成。企业应核对资源和交付安排后批准本承诺，并按正式文件明确日历日/工作日口径、验收节点和起算事件。未经确认，本草稿不表示企业已具备或已批准该交付能力。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "★交付应于合同生效后210日内完成。"
+        }
+      ]
+    },
+    {
+      "id": "H2-R004",
+      "kind": "qualification",
+      "text": "资格审查仅接受响应函承诺。",
+      "status": "needs_confirmation",
+      "response": "【待填响应函承诺】依正式响应函逐项填写采购文件列明的资格承诺内容，并由企业授权人员核实和确认。现有附件未提供响应函格式和具体资格项，不能填入“全部资格均满足”。本条只按文件允许的响应函承诺准备，不另加审计报告等证明附件。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "资格审查仅接受响应函承诺。"
+        }
+      ]
+    },
+    {
+      "id": "H2-R005",
+      "kind": "substantive",
+      "text": "技术能力要提供当前产品v3真实系统截图，拟建设计划不能代替。",
+      "status": "conflict",
+      "response": "【待补v3真实截图】附件文字仅记载产品截图为v2，当前未提供可核验的截图原件。请提供虚构乙公司当前产品v3的真实系统截图，标明系统/产品版本、功能位置与采集时间，并由企业确认真实性。v2截图和拟建设计划均不能证明当前v3要求已满足。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "技术能力要提供当前产品v3真实系统截图，拟建设计划不能代替。"
+        }
+      ]
+    }
+  ],
+  "calculations": {
+    "response_deposit": null,
+    "actual_price_score": null
+  },
+  "semantic_review": "agent_and_human_required",
+  "submission": "not_performed"
+}

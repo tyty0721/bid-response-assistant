@@ -1,0 +1,195 @@
+{
+  "changed_requirements": [
+    "D1-R001"
+  ],
+  "project_changed": true,
+  "other_inputs_changed": true,
+  "affected_sections": [
+    "实施方案与服务期限",
+    "报价"
+  ],
+  "quote_review_required": true,
+  "approval_invalidated": true,
+  "updated_record": {
+    "schema_version": 1,
+    "project": {
+      "id": "D-SYN-03",
+      "name": null,
+      "package": "1",
+      "version": "B",
+      "jurisdiction": "CN-government-procurement",
+      "method": "competitive_consultation",
+      "category": "services",
+      "company": null,
+      "deadline": null,
+      "rules": {
+        "budget": null,
+        "ceiling": "420000",
+        "response_deposit": null,
+        "min_validity_days": null
+      },
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "项目D-SYN-03，包1，中国大陆政府采购服务类竞争性磋商。"
+        },
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "旧版A：限价500000元，服务100日，报价450000元，曾有人审记录。"
+        },
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "正式更正版本B：只将限价改为420000元，其他条款继续有效。"
+        }
+      ]
+    },
+    "procurement_source_ids": [
+      "S001"
+    ],
+    "reviewed_blocks": [
+      "S001:b0001"
+    ],
+    "requirements": [
+      {
+        "id": "D1-R001",
+        "text": "限价改为420000元",
+        "kind": "substantive",
+        "mandatory": true,
+        "phase": "响应报价",
+        "response_required_now": true,
+        "proof_type": "statement",
+        "section": "报价",
+        "package": "1",
+        "sources": [
+          {
+            "source_id": "S001",
+            "block_id": "S001:b0001",
+            "quote": "限价改为420000元"
+          }
+        ],
+        "constraints": {
+          "ceiling": "420000"
+        }
+      },
+      {
+        "id": "D1-R002",
+        "text": "服务100日",
+        "kind": "contract",
+        "mandatory": true,
+        "phase": "合同履行",
+        "response_required_now": true,
+        "proof_type": "promise",
+        "section": "实施方案与服务期限",
+        "package": "1",
+        "sources": [
+          {
+            "source_id": "S001",
+            "block_id": "S001:b0001",
+            "quote": "服务100日"
+          }
+        ],
+        "constraints": {
+          "duration_days": 100,
+          "start_event": null,
+          "day_type": null,
+          "absolute_due_date": null
+        }
+      }
+    ],
+    "evidence": [],
+    "responses": [
+      {
+        "requirement_id": "D1-R001",
+        "text": "【更正后报价待重审】保留原A版450000元报价以暴露影响，当前比B版420000元限价高30000元；不能原样沿用。企业需批准不超420000元的新报价，更新报价函、明细合计、大小写和所有应答位置；当前报价project_version仍为A，不能伪称已适用于B。",
+        "status": "conflict",
+        "evidence_ids": []
+      },
+      {
+        "requirement_id": "D1-R002",
+        "text": "保留服务100日。起算事件、日口径、服务范围与方案原件未提供，不能生成绝对日期或替企业承诺具体履约资源。企业已手工修改实施方案，当前只列人工核对任务，不覆盖其文件。",
+        "status": "needs_confirmation",
+        "evidence_ids": []
+      }
+    ],
+    "quote": {
+      "total": "450000",
+      "uppercase": null,
+      "currency": "CNY",
+      "tax_inclusive": null,
+      "project_version": "A",
+      "round": null,
+      "validity_days": null,
+      "approved_by": null,
+      "approved_at": null,
+      "items": []
+    },
+    "conflicts": [
+      {
+        "description": "A版报价450000元比B版新限价420000元高30000元，必须重新定价和批准，当前未调整。",
+        "sources": [
+          {
+            "source_id": "S001",
+            "block_id": "S001:b0001",
+            "quote": "旧版A：限价500000元，服务100日，报价450000元，曾有人审记录。"
+          },
+          {
+            "source_id": "S001",
+            "block_id": "S001:b0001",
+            "quote": "正式更正版本B：只将限价改为420000元，其他条款继续有效。"
+          }
+        ],
+        "resolution": null
+      },
+      {
+        "description": "企业报价批准据附件仅适用于A版，不能沿用到B版；真实历史批准记录未提供，本轮不验证或重建批准。",
+        "sources": [
+          {
+            "source_id": "S001",
+            "block_id": "S001:b0001",
+            "quote": "企业报价批准只适用于A版；企业已手工修改实施方案，文件不能覆盖。"
+          }
+        ],
+        "resolution": null
+      }
+    ],
+    "approval": null,
+    "state": "needs_information",
+    "historical_review": {
+      "reported": true,
+      "reviewer": null,
+      "original_record_supplied": false,
+      "actual_approval_verified": false,
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "旧版A：限价500000元，服务100日，报价450000元，曾有人审记录。"
+        },
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "企业报价批准只适用于A版；企业已手工修改实施方案，文件不能覆盖。"
+        }
+      ]
+    },
+    "workflow_guards": {
+      "existing_implementation_plan_is_user_modified": true,
+      "existing_plan_path": null,
+      "may_overwrite_existing_plan": false,
+      "automatic_approval_allowed": false,
+      "submission": "not_performed"
+    },
+    "amendment_analysis": {
+      "source_verified_as_real_official_notice": false,
+      "scope_claimed_by_fixture": "only_ceiling",
+      "old_ceiling": "500000",
+      "new_ceiling": "420000",
+      "unchanged_service_days": 100,
+      "old_quote_retained_for_review": true,
+      "reported_old_approval_not_verified": true
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "project_id": "SYN-001",
+  "input_hash": "53781a2ab98b9e102ad69d5ad649e15c03e84330c8ca92717eb47d7bc976b7e3",
+  "materials_hash": "52111f20042f5601186e3c7eb87389b4b31b2e6af40b76429ed7964004f6021c",
+  "as_of": "2026-10-10",
+  "state": "needs_information",
+  "issues": [
+    {
+      "code": "PROJECT_FIELD_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Project or supplier field is unknown: company"
+    },
+    {
+      "code": "DEADLINE_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Supply the official notice and deadline; do not infer a date from the version ID"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "R-TERM",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "QUOTE_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Supplier price is unknown; the procurement ceiling is not a quote"
+    }
+  ],
+  "matrix": [
+    {
+      "id": "R-TERM",
+      "kind": "substantive",
+      "text": "服务期限为合同签订后300日 须承诺",
+      "status": "missing_evidence",
+      "response": null,
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "服务期限300日"
+        }
+      ]
+    }
+  ],
+  "calculations": {
+    "technical_marker_counts": {}
+  },
+  "semantic_review": "agent_and_human_required",
+  "submission": "not_performed"
+}

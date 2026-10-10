@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "project": {
+    "id": "SYN-001",
+    "name": "虚构课程服务采购",
+    "package": "1",
+    "version": "v1",
+    "method": "competitive_consultation",
+    "category": "services",
+    "jurisdiction": "CN-government-procurement",
+    "company": null,
+    "deadline": null,
+    "rules": {
+      "budget": "100000.00",
+      "ceiling": "100000.00",
+      "response_deposit": "0.00",
+      "performance_deposit_rate": "0.05",
+      "agency_fee_rate": "0.009",
+      "low_price_ratio": "0.5",
+      "price_deduction_rate": "0",
+      "min_validity_days": 90
+    },
+    "sources": [
+      {
+        "source_id": "S001",
+        "block_id": "S001:b0001",
+        "quote": "竞争性磋商"
+      }
+    ]
+  },
+  "procurement_source_ids": [
+    "S001"
+  ],
+  "reviewed_blocks": [
+    "S001:b0001"
+  ],
+  "requirements": [
+    {
+      "id": "R-TERM",
+      "text": "服务期限为合同签订后300日 须承诺",
+      "kind": "substantive",
+      "mandatory": true,
+      "phase": "contract_performance",
+      "response_required_now": true,
+      "proof_type": "promise",
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "服务期限300日"
+        }
+      ]
+    }
+  ],
+  "evidence": [],
+  "responses": [],
+  "quote": null,
+  "conflicts": [],
+  "approval": null
+}

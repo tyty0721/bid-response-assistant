@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "project": {
+    "id": "C-SYN-02",
+    "name": null,
+    "package": "1",
+    "version": "A",
+    "jurisdiction": "CN-government-procurement",
+    "method": "competitive_consultation",
+    "category": "services",
+    "company": "虚构丙公司",
+    "deadline": null,
+    "rules": {
+      "budget": null,
+      "ceiling": "300000",
+      "min_validity_days": 120,
+      "response_deposit": "0",
+      "performance_deposit_rate": "0.02"
+    },
+    "sources": [
+      {
+        "source_id": "S001",
+        "block_id": "S001:b0001",
+        "quote": "项目C-SYN-02，包1，版本A，中国大陆政府采购服务类竞争性磋商。"
+      },
+      {
+        "source_id": "S001",
+        "block_id": "S001:b0001",
+        "quote": "最高限价300000元，响应有效期至少120日，响应保证金不收，履约保证金2%。"
+      }
+    ]
+  },
+  "procurement_source_ids": [
+    "S001"
+  ],
+  "reviewed_blocks": [
+    "S001:b0001"
+  ],
+  "requirements": [
+    {
+      "id": "C1-R001",
+      "text": "最高限价300000元",
+      "kind": "substantive",
+      "mandatory": true,
+      "phase": "投标报价",
+      "response_required_now": true,
+      "proof_type": "statement",
+      "section": "报价",
+      "package": "1",
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "最高限价300000元"
+        }
+      ],
+      "constraints": {
+        "ceiling": "300000"
+      }
+    },
+    {
+      "id": "C1-R002",
+      "text": "响应有效期至少120日",
+      "kind": "substantive",
+      "mandatory": true,
+      "phase": "响应文件",
+      "response_required_now": true,
+      "proof_type": "promise",
+      "section": "报价与有效期",
+      "package": "1",
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "响应有效期至少120日"
+        }
+      ],
+      "constraints": {
+        "min_validity_days": 120
+      }
+    },
+    {
+      "id": "C1-R003",
+      "text": "响应保证金不收",
+      "kind": "procedure",
+      "mandatory": true,
+      "phase": "响应阶段",
+      "response_required_now": false,
+      "proof_type": "none",
+      "section": "保证金",
+      "package": "1",
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "响应保证金不收"
+        }
+      ],
+      "constraints": {
+        "response_deposit": "0"
+      },
+      "response_obligation": "不要求缴纳响应保证金，不新增付款动作或凭证"
+    },
+    {
+      "id": "C1-R004",
+      "text": "履约保证金2%",
+      "kind": "contract",
+      "mandatory": true,
+      "phase": "合同履行",
+      "response_required_now": true,
+      "proof_type": "promise",
+      "section": "履约保证金",
+      "package": "1",
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "履约保证金2%"
+        }
+      ],
+      "constraints": {
+        "performance_deposit_rate": "0.02",
+        "calculation_base": null
+      }
+    },
+    {
+      "id": "C1-R005",
+      "text": "★培训应于合同签订后60日完成。",
+      "kind": "substantive",
+      "mandatory": true,
+      "phase": "合同履行",
+      "response_required_now": true,
+      "proof_type": "promise",
+      "section": "培训交付",
+      "package": "1",
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "★培训应于合同签订后60日完成。"
+        }
+      ],
+      "marker": "★",
+      "constraints": {
+        "duration_days": 60,
+        "start_event": "合同签订",
+        "day_type": null,
+        "absolute_due_date": null
+      }
+    },
+    {
+      "id": "C1-R006",
+      "text": "一般资格允许响应函签章承诺。",
+      "kind": "qualification",
+      "mandatory": true,
+      "phase": "资格审查",
+      "response_required_now": true,
+      "proof_type": "promise",
+      "section": "一般资格",
+      "package": "1",
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "一般资格允许响应函签章承诺。"
+        }
+      ]
+    },
+    {
+      "id": "C1-R007",
+      "text": "★专门面向中小企业，需如实填写中小企业声明函。",
+      "kind": "qualification",
+      "mandatory": true,
+      "phase": "资格审查",
+      "response_required_now": true,
+      "proof_type": "statement",
+      "section": "中小企业政策资格",
+      "package": "1",
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "★专门面向中小企业，需如实填写中小企业声明函。"
+        }
+      ],
+      "marker": "★",
+      "constraints": {
+        "reserved_for_sme": true,
+        "declaration_required": true
+      }
+    },
+    {
+      "id": "C1-R008",
+      "text": "正式公告未随附，截止时间未知。",
+      "kind": "procedure",
+      "mandatory": true,
+      "phase": "响应准备",
+      "response_required_now": true,
+      "proof_type": "platform_record",
+      "section": "公告与时间",
+      "package": "1",
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "正式公告未随附，截止时间未知。"
+        }
+      ]
+    }
+  ],
+  "evidence": [],
+  "responses": [
+    {
+      "requirement_id": "C1-R001",
+      "text": "【待企业批准】原报价280000元，低于300000元限价20000元。价格、明细、含税口径及大写均待企业核实批准；当前不作已批准报价声明。",
+      "status": "needs_confirmation",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "C1-R002",
+      "text": "【待修改并重新批准】企业所填90日小于项目至少120日要求，少30日。企业应确认能够承诺的有效期后，统一响应函、报价函及相关有效期字段，不能继续使用90日。",
+      "status": "conflict",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "C1-R004",
+      "text": "【待核对正式合同并批准承诺】履约保证金比例为2%。以当前未批准报价280000元为假设基数，程序算术结果为5600.00元；附件没有说明基数、缴纳方式、期限和返还条件，金额不能直接作为实际应付款。",
+      "status": "needs_confirmation",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "C1-R005",
+      "text": "【未经企业确认的承诺草稿】虚构丙公司拟承诺培训于合同签订后60日完成。先核对培训范围、师资、排期、验收安排和日口径，经企业授权批准后才能写入正式响应。起算事件是合同签订，不能换成合同生效；签订日期未知，不生成绝对交付日。",
+      "status": "needs_confirmation",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "C1-R006",
+      "text": "【待按正式响应函填写】一般资格按允许的响应函签章承诺准备，由企业授权人员逐项核实具体资格内容后确认和签章。本次不伪造签章，也不强加审计报告等文件未要求的附件。",
+      "status": "needs_confirmation",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "C1-R007",
+      "text": "【参与资格冲突，优先处理】本包专门面向中小企业，但附件企业材料自述为大型企业。当前不能声明符合该项，也不能编造中小企业声明函。企业先核实采购标的所属行业与划型依据；若大型企业自述经核实仍成立，建议停止本包继续投标准备，除非取得与真实条件相符的正式采购范围调整。",
+      "status": "conflict",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "C1-R008",
+      "text": "【待补正式公告与完整文件】截止日期、时间、时区和轮次未知。补匹配C-SYN-02包1版本A的官方公告、完整磋商文件及更正，才能确认准备时间与正式模板。",
+      "status": "missing_evidence",
+      "evidence_ids": []
+    }
+  ],
+  "quote": {
+    "total": "280000",
+    "uppercase": null,
+    "currency": "CNY",
+    "tax_inclusive": null,
+    "project_version": "A",
+    "round": null,
+    "validity_days": 90,
+    "approved_by": null,
+    "approved_at": null,
+    "items": []
+  },
+  "conflicts": [
+    {
+      "description": "专门面向中小企业要求与企业自述大型企业冲突；不得虚填声明函，需先核实可参与性。",
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "★专门面向中小企业，需如实填写中小企业声明函。"
+        },
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "企业材料：虚构丙公司表示自身属于大型企业，未提供中小企业信息。"
+        }
+      ],
+      "resolution": null
+    },
+    {
+      "description": "响应有效期90日不足至少120日，少30日，待企业批准修正并同步响应位置。",
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "响应有效期至少120日"
+        },
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "报价280000元，尚未批准；响应有效期填90日。"
+        }
+      ],
+      "resolution": null
+    }
+  ],
+  "approval": null,
+  "state": "needs_information",
+  "unknown_fields": {
+    "formal_project_name": null,
+    "qualification_items": null,
+    "sme_classification_industry": null,
+    "sme_original_information": null,
+    "performance_deposit_base": null,
+    "agency_fee_rate": null,
+    "low_price_ratio": null,
+    "price_deduction_rate": null,
+    "technical_scoring_table": null
+  },
+  "reported_supplier_facts": {
+    "entity": "虚构丙公司",
+    "enterprise_size": "large",
+    "confirmed_by": null,
+    "original_company_materials_supplied": false,
+    "sources": [
+      {
+        "source_id": "S001",
+        "block_id": "S001:b0001",
+        "quote": "企业材料：虚构丙公司表示自身属于大型企业，未提供中小企业信息。"
+      }
+    ]
+  },
+  "manual_observations": {
+    "star_count_in_supplied_text": 2,
+    "full_document_coverage_proven": false,
+    "quote_uppercase_supplied": false,
+    "submission": "not_performed",
+    "delivery_start_event": "合同签订",
+    "response_deposit_rule_handling": "reference_only; no separate response, proof or payment required"
+  }
+}

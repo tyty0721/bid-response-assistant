@@ -1,0 +1,18 @@
+{
+  "review_as_of": "2026-10-10",
+  "numeric_total": "812345.68",
+  "ceiling": "812345.67",
+  "excess_over_ceiling": "0.01",
+  "input_uppercase": "捌拾壹万贰仟叁佰肆拾伍元陆角柒分",
+  "numeric_total_uppercase": "捌拾壹万贰仟叁佰肆拾伍元陆角捌分",
+  "ceiling_uppercase": "捌拾壹万贰仟叁佰肆拾伍元陆角柒分",
+  "input_uppercase_equals_numeric_total": false,
+  "input_uppercase_equals_ceiling": true,
+  "certificate_expired_days_as_of_review": 10,
+  "quote_changed": false,
+  "company_approval_recorded": false,
+  "actual_price_score": null,
+  "tax_inclusive": null,
+  "line_item_total_checked": false,
+  "certificate_original_inspected": false
+}

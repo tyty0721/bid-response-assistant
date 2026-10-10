@@ -1,0 +1,26 @@
+{
+  "tests_run": 38,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "dependencies": {
+    "pypdf": "6.10.0",
+    "python-docx": "1.2.0"
+  },
+  "scope": "deterministic unit/integration checks, not business UAT",
+  "skill_files": {
+    "skills/bid-response-assistant/SKILL.md": "0fbd64f2828e86008299bad80473eb264e4e11f715a92c375e6515252dc12f22",
+    "skills/bid-response-assistant/agents/openai.yaml": "fa5e3d17fa66c7383788dd30aca16741a3c251647594a40dd3f1e87d65cb2c4c",
+    "skills/bid-response-assistant/assets/record.example.json": "5bc9cf4f1db8a6b62a204d6830e253e8e1e4d88eee348d62d03fc05ee7ee6461",
+    "skills/bid-response-assistant/references/competitive-consultation-services.md": "c8c5239ae90070ce38fe4824599a4d4114573ef27e9937a812a0b1854b046741",
+    "skills/bid-response-assistant/references/evidence-and-review.md": "c098c3df4a0403fe0e27594e1ee9cb3856f44344c516b7fdaacf1ec942653417",
+    "skills/bid-response-assistant/references/procurement-routing.md": "ef446faaf39aa5fb5d2d167148ac547b567953ea19ff92b8fcfb622d86ab14ca",
+    "skills/bid-response-assistant/references/schemas.md": "5c71e4b5230931e88a651c4dd9f69a5248e5037c703c70adab45dad6f708ba18",
+    "skills/bid-response-assistant/scripts/bid.py": "37c6af1c0776524537b222057689bd367863db31d932669c66077c4c74225c70",
+    "skills/bid-response-assistant/scripts/export_matrix.mjs": "92632d6a046a1e605bf0c8c1065ac10aface5a2fb4f610c21d590af00fb85c2c",
+    "skills/bid-response-assistant/scripts/ingest.py": "65f86393b096a0026064928f8d9ec6d193f91b72185e8d42b96a195c6bfd7922"
+  }
+}

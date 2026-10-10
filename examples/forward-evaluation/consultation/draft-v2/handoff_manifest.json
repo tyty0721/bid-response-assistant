@@ -1,0 +1,15 @@
+{
+  "project_id": "C-SYN-02",
+  "state": "needs_information",
+  "input_hash": "4a48065b8f08f8ca87d4463b9f6138b758ef56837c07da042012f04ba5a7a9a2",
+  "materials_hash": "6b696ac4060ba226ac1c757addec10db54125bdfdfaed55e2752a2c8a64f8dc9",
+  "submission": "not_performed",
+  "files": {
+    "checks.json": "827433eaae3b104a0b5919b647e3131d31332e36428797b887033eeb6ad39e1f",
+    "evidence-index.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "response-draft.docx": "845305e12d4669551ad1687190c0a0454d152faad5ef6c05d92ba74dabd44357",
+    "response-matrix.csv": "bbf5eb76fb02dd0cabed5b899209d48d260301d0ce5567cef59efeb3f06d175b",
+    "review_report.md": "a183a33454ed49235e6785c1746ea2f6eab07a6c636cc11033161b81c638fff1",
+    "response-matrix.xlsx": "f95173c034d9dfaa4801e6ff2fd61779df47ab102153076aeae333229c3ca381"
+  }
+}

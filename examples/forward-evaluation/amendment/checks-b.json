@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "project_id": "D-SYN-03",
+  "input_hash": "02e4eddb1db8cb2d8ae153f14c97b1226508e2d639f9af9dfff22d397674d002",
+  "materials_hash": "63e2924e2392491660af8be6d14440392919d60a6b3f70cdb1d6d457888c803b",
+  "as_of": "2026-10-10",
+  "state": "needs_information",
+  "issues": [
+    {
+      "code": "PROJECT_FIELD_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Project or supplier field is unknown: name"
+    },
+    {
+      "code": "PROJECT_FIELD_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Project or supplier field is unknown: company"
+    },
+    {
+      "code": "DEADLINE_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Supply the official notice and deadline; do not infer a date from the version ID"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "D1-R001",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "D1-R002",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "QUOTE_BASIS",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Currency or tax basis is unknown or differs; confirm the documented project basis"
+    },
+    {
+      "code": "QUOTE_STALE",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Quote uses another procurement version"
+    },
+    {
+      "code": "QUOTE_UPPERCASE",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Uppercase and numeric quote differ; do not silently correct an approved quote"
+    },
+    {
+      "code": "QUOTE_UNAPPROVED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Pricing decision needs company approval"
+    },
+    {
+      "code": "QUOTE_CEILING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Quote exceeds the package ceiling"
+    },
+    {
+      "code": "VALIDITY_RULE_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Documented validity requirement is unknown; do not infer a minimum"
+    },
+    {
+      "code": "DOCUMENT_CONFLICT",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "A版报价450000元比B版新限价420000元高30000元，必须重新定价和批准，当前未调整。"
+    },
+    {
+      "code": "DOCUMENT_CONFLICT",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "企业报价批准据附件仅适用于A版，不能沿用到B版；真实历史批准记录未提供，本轮不验证或重建批准。"
+    }
+  ],
+  "matrix": [
+    {
+      "id": "D1-R001",
+      "kind": "substantive",
+      "text": "限价改为420000元",
+      "status": "conflict",
+      "response": "【更正后报价待重审】保留原A版450000元报价以暴露影响，当前比B版420000元限价高30000元；不能原样沿用。企业需批准不超420000元的新报价，更新报价函、明细合计、大小写和所有应答位置；当前报价project_version仍为A，不能伪称已适用于B。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "限价改为420000元"
+        }
+      ]
+    },
+    {
+      "id": "D1-R002",
+      "kind": "contract",
+      "text": "服务100日",
+      "status": "needs_confirmation",
+      "response": "保留服务100日。起算事件、日口径、服务范围与方案原件未提供，不能生成绝对日期或替企业承诺具体履约资源。企业已手工修改实施方案，当前只列人工核对任务，不覆盖其文件。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "服务100日"
+        }
+      ]
+    }
+  ],
+  "calculations": {
+    "response_deposit": null,
+    "actual_price_score": null,
+    "technical_marker_counts": {}
+  },
+  "semantic_review": "agent_and_human_required",
+  "submission": "not_performed"
+}

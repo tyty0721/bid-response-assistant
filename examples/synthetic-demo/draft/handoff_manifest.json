@@ -1,0 +1,15 @@
+{
+  "project_id": "SYN-001",
+  "state": "needs_information",
+  "input_hash": "53781a2ab98b9e102ad69d5ad649e15c03e84330c8ca92717eb47d7bc976b7e3",
+  "materials_hash": "52111f20042f5601186e3c7eb87389b4b31b2e6af40b76429ed7964004f6021c",
+  "submission": "not_performed",
+  "files": {
+    "checks.json": "dd9e5bdb63f50b9beb11d831fb4f169f3f32c2fc5060bfcfa7c104ae56bc1cdb",
+    "evidence-index.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "response-draft.docx": "a429898a8401a068593c5638615c514841688ff27db86949353fc7073cca3a5d",
+    "response-matrix.csv": "7ff863a3ebf1f5c85c4db6e37cfd711bb8e542bd119a2b62f9bbf2cfffbc9cf7",
+    "review_report.md": "d35298663b36e7c86244dcd4ace6be03735953acf2fff6425449b7da24e9bde9",
+    "response-matrix.xlsx": "b457e3017162873075fd3b265480c92d3d0b6855153b1efd3451003bcea46343"
+  }
+}

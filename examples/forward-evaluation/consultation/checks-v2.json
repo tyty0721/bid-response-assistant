@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "project_id": "C-SYN-02",
+  "input_hash": "4a48065b8f08f8ca87d4463b9f6138b758ef56837c07da042012f04ba5a7a9a2",
+  "materials_hash": "6b696ac4060ba226ac1c757addec10db54125bdfdfaed55e2752a2c8a64f8dc9",
+  "as_of": "2026-10-10",
+  "state": "needs_information",
+  "issues": [
+    {
+      "code": "PROJECT_FIELD_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Project or supplier field is unknown: name"
+    },
+    {
+      "code": "DEADLINE_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Supply the official notice and deadline; do not infer a date from the version ID"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "C1-R001",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "C1-R002",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "C1-R004",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "C1-R005",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "C1-R006",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "C1-R007",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "C1-R008",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "QUOTE_BASIS",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Currency or tax basis is unknown or differs; confirm the documented project basis"
+    },
+    {
+      "code": "QUOTE_UPPERCASE",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Uppercase and numeric quote differ; do not silently correct an approved quote"
+    },
+    {
+      "code": "QUOTE_UNAPPROVED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Pricing decision needs company approval"
+    },
+    {
+      "code": "VALIDITY_SHORT",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Response validity is missing or shorter than the documented minimum"
+    },
+    {
+      "code": "DOCUMENT_CONFLICT",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "专门面向中小企业要求与企业自述大型企业冲突；不得虚填声明函，需先核实可参与性。"
+    },
+    {
+      "code": "DOCUMENT_CONFLICT",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "响应有效期90日不足至少120日，少30日，待企业批准修正并同步响应位置。"
+    }
+  ],
+  "matrix": [
+    {
+      "id": "C1-R001",
+      "kind": "substantive",
+      "text": "最高限价300000元",
+      "status": "needs_confirmation",
+      "response": "【待企业批准】原报价280000元，低于300000元限价20000元。价格、明细、含税口径及大写均待企业核实批准；当前不作已批准报价声明。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "最高限价300000元"
+        }
+      ]
+    },
+    {
+      "id": "C1-R002",
+      "kind": "substantive",
+      "text": "响应有效期至少120日",
+      "status": "conflict",
+      "response": "【待修改并重新批准】企业所填90日小于项目至少120日要求，少30日。企业应确认能够承诺的有效期后，统一响应函、报价函及相关有效期字段，不能继续使用90日。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "响应有效期至少120日"
+        }
+      ]
+    },
+    {
+      "id": "C1-R003",
+      "kind": "procedure",
+      "text": "响应保证金不收",
+      "status": "reference_only",
+      "response": "记录项目规则；当前无需为本条单独提交响应或证明。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "响应保证金不收"
+        }
+      ]
+    },
+    {
+      "id": "C1-R004",
+      "kind": "contract",
+      "text": "履约保证金2%",
+      "status": "needs_confirmation",
+      "response": "【待核对正式合同并批准承诺】履约保证金比例为2%。以当前未批准报价280000元为假设基数，程序算术结果为5600.00元；附件没有说明基数、缴纳方式、期限和返还条件，金额不能直接作为实际应付款。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "履约保证金2%"
+        }
+      ]
+    },
+    {
+      "id": "C1-R005",
+      "kind": "substantive",
+      "text": "★培训应于合同签订后60日完成。",
+      "status": "needs_confirmation",
+      "response": "【未经企业确认的承诺草稿】虚构丙公司拟承诺培训于合同签订后60日完成。先核对培训范围、师资、排期、验收安排和日口径，经企业授权批准后才能写入正式响应。起算事件是合同签订，不能换成合同生效；签订日期未知，不生成绝对交付日。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "★培训应于合同签订后60日完成。"
+        }
+      ]
+    },
+    {
+      "id": "C1-R006",
+      "kind": "qualification",
+      "text": "一般资格允许响应函签章承诺。",
+      "status": "needs_confirmation",
+      "response": "【待按正式响应函填写】一般资格按允许的响应函签章承诺准备，由企业授权人员逐项核实具体资格内容后确认和签章。本次不伪造签章，也不强加审计报告等文件未要求的附件。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "一般资格允许响应函签章承诺。"
+        }
+      ]
+    },
+    {
+      "id": "C1-R007",
+      "kind": "qualification",
+      "text": "★专门面向中小企业，需如实填写中小企业声明函。",
+      "status": "conflict",
+      "response": "【参与资格冲突，优先处理】本包专门面向中小企业，但附件企业材料自述为大型企业。当前不能声明符合该项，也不能编造中小企业声明函。企业先核实采购标的所属行业与划型依据；若大型企业自述经核实仍成立，建议停止本包继续投标准备，除非取得与真实条件相符的正式采购范围调整。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "★专门面向中小企业，需如实填写中小企业声明函。"
+        }
+      ]
+    },
+    {
+      "id": "C1-R008",
+      "kind": "procedure",
+      "text": "正式公告未随附，截止时间未知。",
+      "status": "missing_evidence",
+      "response": "【待补正式公告与完整文件】截止日期、时间、时区和轮次未知。补匹配C-SYN-02包1版本A的官方公告、完整磋商文件及更正，才能确认准备时间与正式模板。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "正式公告未随附，截止时间未知。"
+        }
+      ]
+    }
+  ],
+  "calculations": {
+    "performance_deposit": "5600.00",
+    "response_deposit": "0",
+    "actual_price_score": null,
+    "technical_marker_counts": {}
+  },
+  "semantic_review": "agent_and_human_required",
+  "submission": "not_performed"
+}

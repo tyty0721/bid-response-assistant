@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "project_id": "D-SYN-03",
+  "input_hash": "61e44644ab3cc9b8cd130806bbe0c662225520f1eeb155cc43fbf1e42381793c",
+  "materials_hash": "63e2924e2392491660af8be6d14440392919d60a6b3f70cdb1d6d457888c803b",
+  "as_of": "2026-10-10",
+  "state": "needs_information",
+  "issues": [
+    {
+      "code": "PROJECT_FIELD_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Project or supplier field is unknown: name"
+    },
+    {
+      "code": "PROJECT_FIELD_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Project or supplier field is unknown: company"
+    },
+    {
+      "code": "DEADLINE_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Supply the official notice and deadline; do not infer a date from the version ID"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "D1-R001",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "RESPONSE_GAP",
+      "severity": "blocker",
+      "requirement_id": "D1-R002",
+      "message": "Missing, partial, conflicting or unconfirmed response"
+    },
+    {
+      "code": "QUOTE_BASIS",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Currency or tax basis is unknown or differs; confirm the documented project basis"
+    },
+    {
+      "code": "QUOTE_UPPERCASE",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Uppercase and numeric quote differ; do not silently correct an approved quote"
+    },
+    {
+      "code": "QUOTE_UNAPPROVED",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Pricing decision needs company approval"
+    },
+    {
+      "code": "VALIDITY_RULE_MISSING",
+      "severity": "blocker",
+      "requirement_id": null,
+      "message": "Documented validity requirement is unknown; do not infer a minimum"
+    }
+  ],
+  "matrix": [
+    {
+      "id": "D1-R001",
+      "kind": "substantive",
+      "text": "限价500000元",
+      "status": "needs_confirmation",
+      "response": "原A版报价为450000元，较A版500000元限价低50000元。附件记载有人审及A版企业报价批准，但未提供真实批准记录，本轮不将其写为已批准。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "限价500000元"
+        }
+      ]
+    },
+    {
+      "id": "D1-R002",
+      "kind": "contract",
+      "text": "服务100日",
+      "status": "needs_confirmation",
+      "response": "保留服务100日。起算事件、日口径、服务范围与方案原件未提供，不能生成绝对日期或替企业承诺具体履约资源。企业已手工修改实施方案，当前只列人工核对任务，不覆盖其文件。",
+      "evidence_ids": [],
+      "sources": [
+        {
+          "source_id": "S001",
+          "block_id": "S001:b0001",
+          "quote": "服务100日"
+        }
+      ]
+    }
+  ],
+  "calculations": {
+    "response_deposit": null,
+    "actual_price_score": null,
+    "technical_marker_counts": {}
+  },
+  "semantic_review": "agent_and_human_required",
+  "submission": "not_performed"
+}

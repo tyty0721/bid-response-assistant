@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "S001",
+      "path": "sources/AI赋能铁道移动通信课程建设及智能体开发与应用课程资源建设(二次)磋商文件（N510001202600204420260828001）.docx",
+      "sha256": "8328031b8446b14b4d6a348eb439c13a3005d78f38b58958bd90f4ddb43d2eb8",
+      "bytes": 60073,
+      "parser": "native",
+      "error": null
+    },
+    {
+      "id": "S002",
+      "path": "sources/AI赋能铁道移动通信课程建设及智能体开发与应用课程资源建设(二次)磋商文件（N510001202600204420260828001）.pdf",
+      "sha256": "ecd6842bfbed61012fbbd1e63c2f94c60bf144ce485da023648d1ee278e6612f",
+      "bytes": 688729,
+      "parser": "needs_review",
+      "error": null
+    },
+    {
+      "id": "S003",
+      "path": "sources/附件/中小企业声明函.pdf",
+      "sha256": "3ee97af1b79f75c06bf2dc498ab6aab7a1ed80ec152f3e2786ffe2ef351470c4",
+      "bytes": 49152,
+      "parser": "native",
+      "error": null
+    },
+    {
+      "id": "S004",
+      "path": "sources/附件/供应商应提交的相关证明材料.docx",
+      "sha256": "148fa3056381971f5cc53420f94d6af1c9a5dc8c6efafb1152ff04e78cdf408e",
+      "bytes": 16646,
+      "parser": "native",
+      "error": null
+    },
+    {
+      "id": "S005",
+      "path": "sources/附件/包(1)_报价表.pdf",
+      "sha256": "964737a6649d283d4c5cef06ec5d6f6e86949e4763f5304b173b35cf3c42c06a",
+      "bytes": 43244,
+      "parser": "native",
+      "error": null
+    },
+    {
+      "id": "S006",
+      "path": "sources/附件/响应文件封面.pdf",
+      "sha256": "ac2ed547fd92a81ebff33f6d065e45344e09bad4f7ac3c053a18d5bd3240055a",
+      "bytes": 17842,
+      "parser": "native",
+      "error": null
+    },
+    {
+      "id": "S007",
+      "path": "sources/附件/投标（响应）函.pdf",
+      "sha256": "5b171df2c50b6b4cfd3259b68340a251904f8bbe870e7c3c426bb58474c4ce07",
+      "bytes": 79977,
+      "parser": "native",
+      "error": null
+    },
+    {
+      "id": "S008",
+      "path": "sources/附件/投诉书.docx",
+      "sha256": "5c2ef33c1b8039cebb0c5ac15ed4c844487bfe2205ea2f9fa869298519afbfd5",
+      "bytes": 37986,
+      "parser": "native",
+      "error": null
+    },
+    {
+      "id": "S009",
+      "path": "sources/附件/服务应答表.docx",
+      "sha256": "ef71756345fc6148067d5c12b99ba91a894465f2c5e90a8ddca1be4136b1312c",
+      "bytes": 16443,
+      "parser": "native",
+      "error": null
+    },
+    {
+      "id": "S010",
+      "path": "sources/附件/残疾人福利性单位声明函.pdf",
+      "sha256": "d815299a4dd12367b30f256ea6d1685baad0474fe642e65293fdbfb4a5e53b71",
+      "bytes": 38454,
+      "parser": "native",
+      "error": null
+    },
+    {
+      "id": "S011",
+      "path": "sources/附件/监狱企业的证明文件.docx",
+      "sha256": "439018c617d9e3e9a938f3634047efb8940d0cb136323e080798bae112467a7d",
+      "bytes": 14632,
+      "parser": "native",
+      "error": null
+    },
+    {
+      "id": "S012",
+      "path": "sources/附件/质疑函.docx",
+      "sha256": "3379df288367a206b7f7db17fdd5f38dd374f216635b9eaf3d5114e7c877b4f0",
+      "bytes": 37156,
+      "parser": "native",
+      "error": null
+    }
+  ],
+  "state": "ingested",
+  "source_blocks_sha256": "97a8cf3ef6741a9e94caa5317000905ee7ccfe259ceaaae8b86070119509150a"
+}

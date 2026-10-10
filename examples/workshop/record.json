@@ -1,0 +1,478 @@
+{
+  "schema_version": 1,
+  "project": {
+    "id": "N5100012026002044",
+    "name": "AI赋能铁道移动通信课程建设及智能体开发与应用课程资源建设(二次)",
+    "package": "1",
+    "version": "N510001202600204420260828001",
+    "method": "competitive_consultation",
+    "category": "services",
+    "jurisdiction": "CN-government-procurement",
+    "company": null,
+    "deadline": null,
+    "rules": {
+      "budget": "650000.00",
+      "ceiling": "650000.00",
+      "response_deposit": "0.00",
+      "performance_deposit_rate": "0.05",
+      "agency_fee_rate": "0.009",
+      "min_validity_days": 90,
+      "low_price_ratio": "0.5",
+      "price_deduction_rate": "0"
+    },
+    "sources": [
+      {
+        "source_id": "S002",
+        "block_id": "S002:p002",
+        "quote": "N5100012026002044"
+      }
+    ]
+  },
+  "procurement_source_ids": [
+    "S002"
+  ],
+  "reviewed_blocks": [
+    "S002:p002",
+    "S002:p003",
+    "S002:p005",
+    "S002:p006",
+    "S002:p015",
+    "S002:p023",
+    "S002:p024",
+    "S002:p027",
+    "S002:p028",
+    "S002:p030",
+    "S002:p033",
+    "S002:p034",
+    "S002:p035",
+    "S002:p036",
+    "S002:p042"
+  ],
+  "requirements": [
+    {
+      "id": "W-SME",
+      "text": "专门面向中小企业，按适用身份提交声明或证明",
+      "kind": "qualification",
+      "mandatory": true,
+      "phase": "response_preparation",
+      "response_required_now": true,
+      "proof_type": "statement",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p028",
+          "quote": "专⻔面向中小企业"
+        }
+      ]
+    },
+    {
+      "id": "W-QUAL-PROMISE",
+      "text": "一般资格采用响应函承诺及电子签章，内部须核实事实",
+      "kind": "qualification",
+      "mandatory": true,
+      "phase": "response_preparation",
+      "response_required_now": true,
+      "proof_type": "promise",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p027",
+          "quote": "完成承诺"
+        }
+      ]
+    },
+    {
+      "id": "W-CONSORTIUM",
+      "text": "不接受联合体参加",
+      "kind": "qualification",
+      "mandatory": true,
+      "phase": "response_preparation",
+      "response_required_now": true,
+      "proof_type": "promise",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p005",
+          "quote": "不接受联合体"
+        }
+      ]
+    },
+    {
+      "id": "W-CEILING",
+      "text": "包1总价报价不得超过650000.00元",
+      "kind": "substantive",
+      "mandatory": true,
+      "phase": "response_preparation",
+      "response_required_now": true,
+      "proof_type": "promise",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p015",
+          "quote": "650,000.00"
+        }
+      ]
+    },
+    {
+      "id": "W-VALIDITY",
+      "text": "响应有效期自截止之日起至少90天",
+      "kind": "substantive",
+      "mandatory": true,
+      "phase": "response_preparation",
+      "response_required_now": true,
+      "proof_type": "promise",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p006",
+          "quote": "90\n \n天"
+        }
+      ]
+    },
+    {
+      "id": "W-PERFORMANCE-DEPOSIT",
+      "text": "合同签订前按合同金额5%提交履约保证金",
+      "kind": "contract",
+      "mandatory": true,
+      "phase": "contract_performance",
+      "response_required_now": true,
+      "proof_type": "promise",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p006",
+          "quote": "5.0%"
+        }
+      ]
+    },
+    {
+      "id": "W-RESPONSE-DEPOSIT",
+      "text": "响应保证金不收取，不能与履约保证金混淆",
+      "kind": "procedure",
+      "mandatory": true,
+      "phase": "response_preparation",
+      "response_required_now": false,
+      "proof_type": "none",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p005",
+          "quote": "不收取投标"
+        }
+      ]
+    },
+    {
+      "id": "W-AGENCY-FEE",
+      "text": "成交供应商承担代理费，成交额乘1.5%再下浮40%，即0.9%",
+      "kind": "contract",
+      "mandatory": true,
+      "phase": "contract_performance",
+      "response_required_now": true,
+      "proof_type": "promise",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p006",
+          "quote": "1.5%"
+        }
+      ]
+    },
+    {
+      "id": "W-SERVICE-TERM",
+      "text": "自合同签订之日起300日完成服务，现在须响应",
+      "kind": "substantive",
+      "mandatory": true,
+      "phase": "response_preparation",
+      "response_required_now": true,
+      "proof_type": "promise",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p023",
+          "quote": "300\n日"
+        }
+      ]
+    },
+    {
+      "id": "W-LOCATION",
+      "text": "服务地点为四川铁道职业学院成都校区",
+      "kind": "substantive",
+      "mandatory": true,
+      "phase": "response_preparation",
+      "response_required_now": true,
+      "proof_type": "promise",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p023",
+          "quote": "四川铁道职业学院成都校区"
+        }
+      ]
+    },
+    {
+      "id": "W-TEXTBOOK",
+      "text": "正规电子ISBN，三审三校、版权与意识形态审核，需盖章承诺函",
+      "kind": "substantive",
+      "mandatory": true,
+      "phase": "response_preparation",
+      "response_required_now": true,
+      "proof_type": "promise",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p023",
+          "quote": "ISBN"
+        }
+      ]
+    },
+    {
+      "id": "W-PAYMENT",
+      "text": "分期40%和60%，达到约定条件后30个工作日付款；另与合同p42核对",
+      "kind": "contract",
+      "mandatory": true,
+      "phase": "contract_performance",
+      "response_required_now": true,
+      "proof_type": "promise",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p024",
+          "quote": "30\n个工作日"
+        }
+      ]
+    },
+    {
+      "id": "W-LIVE-DEMO",
+      "text": "同一一体化平台真实运行演示，不用PPT、Word、图片或demo替代，限20分钟",
+      "kind": "scoring",
+      "mandatory": false,
+      "phase": "response_preparation",
+      "response_required_now": true,
+      "proof_type": "live_demo",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p033",
+          "quote": "真实运行系统平台演示"
+        }
+      ]
+    },
+    {
+      "id": "W-PLATFORM",
+      "text": "课程平台履约能力需备案及教育部公示截图、课程链接，四维度完整且同一平台",
+      "kind": "scoring",
+      "mandatory": false,
+      "phase": "response_preparation",
+      "response_required_now": true,
+      "proof_type": "platform_record",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p034",
+          "quote": "ICP/IP"
+        }
+      ]
+    },
+    {
+      "id": "W-COPYRIGHT",
+      "text": "虚拟仿真相关软件著作权，每项0.25分，上限7分，需证明复印件",
+      "kind": "scoring",
+      "mandatory": false,
+      "phase": "response_preparation",
+      "response_required_now": true,
+      "proof_type": "copyright",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p034",
+          "quote": "软件著作权证书"
+        }
+      ]
+    },
+    {
+      "id": "W-HISTORY",
+      "text": "2023年1月1日起至截止日类似业绩，需合同关键页，每项1分最高5分",
+      "kind": "scoring",
+      "mandatory": false,
+      "phase": "response_preparation",
+      "response_required_now": true,
+      "proof_type": "historical_contract",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p035",
+          "quote": "2023"
+        }
+      ]
+    },
+    {
+      "id": "W-PLAN",
+      "text": "实施方案六项和售后方案四项均需正文，缺陷包括错项目或仅标题",
+      "kind": "scoring",
+      "mandatory": false,
+      "phase": "response_preparation",
+      "response_required_now": true,
+      "proof_type": "promise",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p035",
+          "quote": "项目整体建设计划"
+        }
+      ]
+    },
+    {
+      "id": "W-LOW-PRICE",
+      "text": "低于限价50%触发异常低价说明；其他触发涉及竞争者数据，不能直接判无效",
+      "kind": "procedure",
+      "mandatory": true,
+      "phase": "response_preparation",
+      "response_required_now": false,
+      "proof_type": "none",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p030",
+          "quote": "最高限价"
+        }
+      ]
+    },
+    {
+      "id": "W-SUBMISSION",
+      "text": "通过交易系统递交并取得回执，本技能仅给人工操作清单",
+      "kind": "procedure",
+      "mandatory": true,
+      "phase": "response_preparation",
+      "response_required_now": true,
+      "proof_type": "platform_record",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p003",
+          "quote": "已提交响应文件的回执单"
+        }
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "requirement_id": "W-SME",
+      "text": null,
+      "status": "missing_evidence",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "W-QUAL-PROMISE",
+      "text": null,
+      "status": "needs_confirmation",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "W-CONSORTIUM",
+      "text": null,
+      "status": "needs_confirmation",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "W-CEILING",
+      "text": null,
+      "status": "needs_confirmation",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "W-VALIDITY",
+      "text": null,
+      "status": "needs_confirmation",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "W-PERFORMANCE-DEPOSIT",
+      "text": null,
+      "status": "needs_confirmation",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "W-AGENCY-FEE",
+      "text": null,
+      "status": "needs_confirmation",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "W-SERVICE-TERM",
+      "text": null,
+      "status": "needs_confirmation",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "W-LOCATION",
+      "text": null,
+      "status": "needs_confirmation",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "W-TEXTBOOK",
+      "text": null,
+      "status": "needs_confirmation",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "W-PAYMENT",
+      "text": null,
+      "status": "needs_confirmation",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "W-LIVE-DEMO",
+      "text": null,
+      "status": "missing_evidence",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "W-PLATFORM",
+      "text": null,
+      "status": "missing_evidence",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "W-COPYRIGHT",
+      "text": null,
+      "status": "missing_evidence",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "W-HISTORY",
+      "text": null,
+      "status": "missing_evidence",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "W-PLAN",
+      "text": null,
+      "status": "needs_confirmation",
+      "evidence_ids": []
+    },
+    {
+      "requirement_id": "W-SUBMISSION",
+      "text": null,
+      "status": "missing_evidence",
+      "evidence_ids": []
+    }
+  ],
+  "evidence": [],
+  "quote": null,
+  "approval": null,
+  "conflicts": [
+    {
+      "description": "p24达到付款条件后30个工作日与p42满足条件收到发票后10个工作日的起算和期限需澄清",
+      "sources": [
+        {
+          "source_id": "S002",
+          "block_id": "S002:p042",
+          "quote": "10\n个工作日"
+        }
+      ],
+      "resolution": null
+    }
+  ],
+  "analysis_scope": "selected_key_clause_regression_not_full_requirement_extraction"
+}

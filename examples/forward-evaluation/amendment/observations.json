@@ -1,0 +1,74 @@
+{
+  "record_used": "record-b-updated.json",
+  "checks_used": "checks-b.json",
+  "draft_directory": "draft-b-v1",
+  "state": "needs_information",
+  "submission": "not_performed",
+  "issue_count": 13,
+  "issue_codes": [
+    "PROJECT_FIELD_MISSING",
+    "PROJECT_FIELD_MISSING",
+    "DEADLINE_MISSING",
+    "RESPONSE_GAP",
+    "RESPONSE_GAP",
+    "QUOTE_BASIS",
+    "QUOTE_STALE",
+    "QUOTE_UPPERCASE",
+    "QUOTE_UNAPPROVED",
+    "QUOTE_CEILING",
+    "VALIDITY_RULE_MISSING",
+    "DOCUMENT_CONFLICT",
+    "DOCUMENT_CONFLICT"
+  ],
+  "requirement_count": 2,
+  "csv_rows": 2,
+  "xlsx_data_rows": 2,
+  "xlsx_all_seven_columns_match_checks": [
+    true,
+    true
+  ],
+  "xlsx_formula_count": 0,
+  "xlsx_wrap_styles": 5,
+  "docx_contains_each_requirement": {
+    "D1-R001": true,
+    "D1-R002": true
+  },
+  "docx_rendered": false,
+  "xlsx_visual_preview_scope": "A:D top rows only",
+  "evidence_count": 0,
+  "approval": null,
+  "script_hashes_unchanged_during_execution": true,
+  "export_manifest_file_hashes": {
+    "checks.json": true,
+    "evidence-index.json": true,
+    "response-draft.docx": true,
+    "response-matrix.csv": true,
+    "review_report.md": true,
+    "response-matrix.xlsx": true
+  },
+  "structure_check_is_business_acceptance": false,
+  "amendment_observations": {
+    "old_ceiling": "500000",
+    "new_ceiling": "420000",
+    "quote_retained": "450000",
+    "excess": "30000",
+    "quote_version": "A",
+    "project_version": "B",
+    "service_requirement_identical": true,
+    "service_days": 100,
+    "used_diff_updated_record": true,
+    "changed_requirements": [
+      "D1-R001"
+    ],
+    "affected_sections": [
+      "实施方案与服务期限",
+      "报价"
+    ],
+    "quote_review_required": true,
+    "approval_invalidated_flag": true,
+    "actual_old_approval_verified": false,
+    "old_approval": null,
+    "new_approval": null,
+    "existing_user_plan_opened_or_overwritten": false
+  }
+}

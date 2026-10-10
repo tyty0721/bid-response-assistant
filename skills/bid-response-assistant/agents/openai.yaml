@@ -1,0 +1,3 @@
+interface:
+  display_name: "供应商投标助手"
+  short_description: "分析采购要求、关联企业证据并生成有出处的响应审核稿"

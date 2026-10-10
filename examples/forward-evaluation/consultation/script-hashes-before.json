@@ -1,0 +1,18 @@
+[
+  {
+    "Path": "D:\\fdex\\bid-response-assistant-delivery\\skills\\bid-response-assistant\\SKILL.md",
+    "Hash": "0FBD64F2828E86008299BAD80473EB264E4E11F715A92C375E6515252DC12F22"
+  },
+  {
+    "Path": "D:\\fdex\\bid-response-assistant-delivery\\skills\\bid-response-assistant\\scripts\\ingest.py",
+    "Hash": "65F86393B096A0026064928F8D9EC6D193F91B72185E8D42B96A195C6BFD7922"
+  },
+  {
+    "Path": "D:\\fdex\\bid-response-assistant-delivery\\skills\\bid-response-assistant\\scripts\\bid.py",
+    "Hash": "37C6AF1C0776524537B222057689BD367863DB31D932669C66077C4C74225C70"
+  },
+  {
+    "Path": "D:\\fdex\\bid-response-assistant-delivery\\skills\\bid-response-assistant\\scripts\\export_matrix.mjs",
+    "Hash": "92632D6A046A1E605BF0C8C1065AC10AFACE5A2FB4F610C21D590AF00FB85C2C"
+  }
+]
